@@ -1,0 +1,13 @@
+### Create a product 
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "sku": "SKU003",
+  "name": "Cheese Ring",
+  "price": 60.99,
+  "stock": 40
+}
+
+### Get all products para masaya
+GET http://localhost:5000/api/products
